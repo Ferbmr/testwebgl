@@ -27,7 +27,7 @@ a {
 .webgl-wrapper {
   display: inline-block;
   width: 100%;
-  max-width: 1080px; /* remove this line for full width */
+  max-width: 1440px; /* remove this line for full width */
   position: relative;
 }
 
@@ -59,7 +59,7 @@ a {
 /* this element makes sure we preserve 16:9 aspect ratio */
 
 .aspect {
-  margin-top: calc(100% / 1080 * 1920);
+  margin-top: calc(100% / 1440 * 2560);
 }
 
 /* progress bar */
